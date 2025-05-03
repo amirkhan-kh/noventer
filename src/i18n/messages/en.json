@@ -76,5 +76,11 @@
     "card7D": "Provides general company information, services, or product details.",
     "card8D": "An ERP platform is a comprehensive software that integrates all organizational processes, including finance, production, logistics, HR, and more.",
     "card9D": "We support the development of new startup projects. If you have a startup idea, we are ready to work with you to bring it from concept to a fully functional product."
+  },
+  "Service": {
+    "IntroT1": "We treat every type of service",
+    "IntroT2": "for every client",
+    "IntroT3": "in any form",
+    "IntroT4": "with a tailored approach!"
   }
 }

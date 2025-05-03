@@ -13,7 +13,7 @@ const Intro = () => {
         <div className="flex justify-between  h-[700px] w-full pt-[190px] ">
 
           <div className="w-full pb-[30px] absolute z-10">
-        < RevalAboutContent>x
+        < RevalAboutContent>
 
             <div className="text-[42px] font-bold w-[100%]">
               <span className="text-white">{t("IntroT1")}</span><br />

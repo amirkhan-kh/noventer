@@ -12,21 +12,21 @@ const Footer = () => {
         <p className="text-white text-center text-[15px] font-light mb-9">{t("titleP")}</p>
         <div>
           <div className="flex  gap-6 w-full ">
-            <div className='gradientf-border-btn w-[70%]'>
+            <div className='gradientt-border-btn w-[70%]'>
               <h3 className="text-white  text-[27px] font-semibold leading-[100%]">{t("formTable")}</h3>
               <div className="grid grid-cols-3 py-4 gap-x-10 gap-y-4">
                 {footerTable.map((card, i)=> (
                   <div key={i} className='miniCard'>
                     <Image src={card.avatar} alt='Img Avatar' width={80} height={80}/>
                     <div>
-                      <h4>{card.firstName}</h4>
-                      <p>{card.lastName}</p>
+                      <h4 className='text-[17px] font-bold leading-[120%]'>{card.lastName}</h4>
+                      <p>{card.firstName}</p>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
-            <div className=' gradientf-border-btn  w-[25%] flex flex-col text-center py-9'>
+            <div className=' gradientt-border-btn  w-[25%] flex flex-col text-center py-9'>
               <span className='mb-7'></span>
               <h3 className="text-white  text-[23px] font-semibold leading-[130%]">{t("formFooterT")}</h3>
               <p className="text-white  text-[12px] font-semibold leading-[100%]">{t("formFooterD")}</p>
