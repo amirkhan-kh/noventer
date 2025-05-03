@@ -1,0 +1,36 @@
+@layer utilities {
+    .btn-radial {
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.103) 0%, rgba(0, 0, 0, 1) 100%);
+     
+      
+    }
+    .gradient-border-btn {
+        position: relative;
+        padding: 12px 24px;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        z-index: 0;
+        cursor: pointer;
+        isolation: isolate; /* muhim: ::before ni to'g'ri ko'rsatadi */
+      }
+      
+      .gradient-border-btn::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        padding: 2px; /* border qalinligi */
+        border-radius: 8px;
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.272) 0%, rgba(0, 0, 0, 1) 100%);
+        -webkit-mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        z-index: -1;
+        box-sizing: border-box;
+        pointer-events: none;
+      }
+      
+  }
+  

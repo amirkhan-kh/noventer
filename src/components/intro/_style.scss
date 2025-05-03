@@ -1,0 +1,33 @@
+#imgIntro{
+    filter: drop-shadow(10px 10px 55px #080667);
+}
+#intro{
+
+  .gradient-border-btn {
+    position: relative;
+    padding: 12px 24px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    z-index: 0;
+    cursor: pointer;
+    isolation: isolate; /* muhim: ::before ni to'g'ri ko'rsatadi */
+  }
+  
+  .gradient-border-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px; /* border qalinligi */
+    border-radius: 8px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.508) 0%, rgb(70, 67, 67) 100%);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+    box-sizing: border-box;
+    pointer-events: none;
+  }
+}

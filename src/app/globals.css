@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body{
+  background-image: url('/assets/images/Layer\ 1\ copy\ 2\ 6.png');
+  /* background-repeat: no-repeat;
+  background-size: cover;     
+  background-position: center;
+  min-height: 100vh;   */
+  overflow-x: hidden;
+}
+#localLayout{
+  background-color: rgba(14, 4, 29);
+  backdrop-filter: blur(1px);
+}
+select {
+  -webkit-appearance: none; 
+  background: transparent; 
+  border: none; 
+  color: rgb(255, 255, 255); 
+  appearance: none;
+
+}
+
+option {
+  -webkit-appearance: none; 
+  background: transparent; 
+  color: rgb(255, 255, 255); 
+  appearance: none;
+}

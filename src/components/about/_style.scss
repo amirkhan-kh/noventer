@@ -1,0 +1,27 @@
+.gradient-border-btn {
+    position: relative;
+    border-radius: 8px;
+    z-index: 0;
+    cursor: pointer;
+    isolation: isolate;
+    padding: 0; /* Asosiy padding yo'q */
+    background-color: rgba(14, 4, 29, 0.322)!important;
+    backdrop-filter: blur(3px);
+  }
+  
+  .gradient-border-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px; /* "border" ko'rinishi uchun */
+    border-radius: 8px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.992) 0%, rgba(70, 67, 67, 0.657) 100%);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+    pointer-events: none;
+  }
+  

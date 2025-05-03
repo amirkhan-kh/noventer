@@ -1,0 +1,80 @@
+{
+  "Header": {
+    "navLink1": "Home",
+    "navLink2": "Portfolio",
+    "navLink3": "Services",
+    "navLink4": "Communication",
+    "navLinkBtn": "Do you have"
+  },
+  "Footer": {
+    "title": "Get in Touch",
+    "titleP": "Let’s discuss how to bring your project to life",
+    "formFooterT": "Free Consultation",
+    "formTable": "About Our Team",
+    "formFooterD": "Leave your contact info for an initial free consultation about your project."
+  },
+
+  "SelectSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {English} uz {O‘zbekcha} ru {Русский} other {Unknown}}"
+  },
+  "Intro": {
+    "IntroT1": "High quality",
+    "IntroT2": "based on accuracy",
+    "IntroT3": "we prepare programs",
+    "IntroT4": "any type",
+    "IntroBtn": "About services",
+    "IntroCard1T": "7+ years old",
+    "IntroCard2T": "5+",
+    "IntroCard3T": "8+",
+    "IntroCard4T": "100%",
+    "IntroCard1D": "General experience",
+    "IntroCard2D": "Major projects",
+    "IntroCard3D": "Service types",
+    "IntroCard4D": "Safety"
+  },
+  "AbaoutHome": {
+    "title": "About Us",
+    "titleP": "Brief information",
+    "card1T": "The beginning",
+    "card2T": "Long-term projects",
+    "card3T": "Our team is expanding.",
+    "card1D": "We started with --- and set ---- as our goal.",
+    "card2D": "During our experience, we have delivered a total of - - projects in -- - time frame",
+    "card3D": "Our team is growing. Our work, which started with one person, is now continuing with one person.",
+    "about": "More information should be provided here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+  "Projects": {
+    "title": "Our projects",
+    "titleP": "Let them talk about us!",
+    "card1T": "Tourmad project",
+    "card2T": "Project ProRun",
+    "card3T": "People's trance project",
+    "card1D": "Tourmad - This website, developed to develop domestic tourism in Uzbekistan, includes several services, including: Hotel services, Restaurant services, Tour services, Driver services for car travel and many other services. In addition, you can see for yourself where to go and how much the service costs on the site and make a reservation for yourself in advance.",
+    "card2D": "Prorun.uz is a site that frequently hosts running competitions, and you can register on the site to participate in any or all of them. Why was the site built? Since there are foreign participants in the competitions, a new web application was developed to make it easier for them and other participants to register.",
+    "card3D": "More information should be provided here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "projectsBtn": "View project"
+  },
+  "ServicesHome": {
+    "title": "Service Types",
+    "titleP": "Here are the most in-demand service types in the programming field:",
+    "card1T": "Landing Pages",
+    "card2T": "Corporate Website",
+    "card3T": "Online Store",
+    "card4T": "CRM System",
+    "card5T": "Portfolio Websites",
+    "card6T": "Blog Pages",
+    "card7T": "Education Platform",
+    "card8T": "ERP Platform",
+    "card9T": "Custom Project?",
+    "card1D": "Short, impactful, and goal-driven pages designed to motivate users to take specific actions.",
+    "card2D": "Provides general company information, services, or product details.",
+    "card3D": "Sell products or services online. Includes payment systems and product management.",
+    "card4D": "Automates and manages client relations. Suitable for large companies or organizations dealing with many clients.",
+    "card5D": "Showcase personal or company work. Ideal for freelancers or creatives promoting their work.",
+    "card6D": "Share thoughts, news, or information. Useful for informing, engaging, and advertising to an audience.",
+    "card7D": "Provides general company information, services, or product details.",
+    "card8D": "An ERP platform is a comprehensive software that integrates all organizational processes, including finance, production, logistics, HR, and more.",
+    "card9D": "We support the development of new startup projects. If you have a startup idea, we are ready to work with you to bring it from concept to a fully functional product."
+  }
+}

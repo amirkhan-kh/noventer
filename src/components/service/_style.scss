@@ -1,0 +1,52 @@
+#service {
+  .gradientt-border-btn {
+    position: relative;
+    padding: 12px 24px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    z-index: 0;
+    cursor: pointer;
+    isolation: isolate;
+    background-color: #281e3443;
+    backdrop-filter: blur(1px);
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #5A00DB;
+    }
+  
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      padding: 2px;
+      border-radius: 8px;
+      background: radial-gradient(circle at center, rgba(255, 255, 255, 0.6), rgb(31, 29, 29));
+      background-size: 200% 200%;
+      animation: rotateGradient 4s linear infinite;
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      z-index: -1;
+      box-sizing: border-box;
+      pointer-events: none;
+    }
+  }
+  
+  // 🔄 Gradient aylanish animatsiyasi
+  @keyframes rotateGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+}
