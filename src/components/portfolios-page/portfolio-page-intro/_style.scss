@@ -1,0 +1,144 @@
+#portfolioIntroPage{
+    #miniCardParent{
+        background-image: url('/assets/svgviewer-output.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 400px;        
+        height: 300px;
+        #img2 {
+          animation: moveAndShadowDiagonal 4s linear infinite;
+          transform: translate(20px, 20px);
+          object-fit: contain;
+          
+          box-shadow:
+            rgba(46, 72, 240, 0.4) -5px 3px,
+            rgba(46, 65, 240, 0.3) -10px 6px,
+            rgba(46, 49, 240, 0.2) -15px 9px,
+            rgba(82, 46, 240, 0.1) -20px 12px,
+            rgba(88, 46, 240, 0.05) -25px 15px,
+            rgba(88, 46, 240, 0.05) -30px 18px,
+            rgba(88, 46, 240, 0.05) -35px 21px,
+            rgba(88, 46, 240, 0.05) -40px 24px;
+        }
+        #img3 {
+          animation: flowBlueShadow 4s linear infinite;
+          transform: translate(0px, 30px);
+          box-shadow:
+            rgba(46, 72, 255, 0.9) 5px -3px,
+            rgba(46, 72, 240, 0.8) 10px -6px,
+            rgba(46, 49, 230, 0.7) 15px -9px,
+            rgba(46, 49, 220, 0.6) 20px -12px,
+            rgba(46, 27, 210, 0.5) 25px -15px,
+            rgba(46, 27, 200, 0.4) 30px -18px,
+            rgba(46, 3, 190, 0.3) 35px -21px,
+            rgba(46, 3, 180, 0.2) 40px -24px,
+            rgba(46, 3, 170, 0.1) 40px -24px;
+        }
+        #img1 {
+          animation: flowBlueShadow1 4s linear infinite;
+          transform: translate(0px, 0px);
+          box-shadow:
+            rgba(46, 72, 240, 0.4) 5px 3px,
+            rgba(46, 65, 240, 0.3) 10px 6px,
+            rgba(46, 49, 240, 0.2) 15px 9px,
+            rgba(82, 46, 240, 0.1) 20px 12px,
+            rgba(88, 46, 240, 0.05) 25px 15px,
+            rgba(88, 46, 240, 0.05) 30px 18px,
+            rgba(88, 46, 240, 0.05) 35px 21px,
+            rgba(88, 46, 240, 0.05) 40px 24px,
+            rgba(88, 46, 240, 0.05) 45px 27px,
+            rgba(120, 46, 240, 0.05) 50px 30px,
+            rgba(149, 46, 240, 0.05) 55px 33px;
+        }
+    } 
+}
+
+@keyframes moveAndShadowDiagonal {
+  0% {
+    transform: translate(0, 0);
+    box-shadow:
+      rgba(46, 72, 240, 0.4) -5px 3px,
+      rgba(46, 65, 240, 0.3) -10px 6px,
+      rgba(46, 49, 240, 0.2) -15px 9px,
+      rgba(82, 46, 240, 0.1) -20px 12px,
+      rgba(88, 46, 240, 0.05) -25px 15px,
+      rgba(88, 46, 240, 0.05) -30px 18px,
+      rgba(88, 46, 240, 0.05) -35px 21px,
+      rgba(88, 46, 240, 0.05) -40px 24px;
+  }
+
+  50% {
+    transform: translate(10px, -10px);
+    box-shadow:
+      rgba(46, 72, 240, 0.1) -5px 3px,
+      rgba(46, 65, 240, 0.08) -10px 6px,
+      rgba(46, 49, 240, 0.06) -15px 9px,
+      rgba(82, 46, 240, 0.04) -20px 12px,
+      rgba(88, 46, 240, 0.02) -25px 15px,
+      rgba(88, 46, 240, 0.015) -30px 18px,
+      rgba(88, 46, 240, 0.01) -35px 21px,
+      rgba(88, 46, 240, 0.005) -40px 24px;
+  }
+  100% {
+    transform: translate(0, 0);
+    box-shadow:
+      rgba(46, 72, 240, 0.4) -5px 3px,
+      rgba(46, 65, 240, 0.3) -10px 6px,
+      rgba(46, 49, 240, 0.2) -15px 9px,
+      rgba(82, 46, 240, 0.1) -20px 12px,
+      rgba(88, 46, 240, 0.05) -25px 15px,
+      rgba(88, 46, 240, 0.05) -30px 18px,
+      rgba(88, 46, 240, 0.05) -35px 21px,
+      rgba(88, 46, 240, 0.05) -40px 24px;
+  }
+}
+@keyframes flowBlueShadow1 {
+  0%, 100% {
+    transform: translate(10px, 10px);
+    box-shadow:
+      rgba(46, 72, 240, 0.4) 5px 3px,
+      rgba(46, 65, 240, 0.3) 10px 6px,
+      rgba(46, 49, 240, 0.2) 15px 9px,
+      rgba(82, 46, 240, 0.1) 20px 12px,
+      rgba(88, 46, 240, 0.05) 25px 15px,
+      rgba(88, 46, 240, 0.05) 30px 18px,
+      rgba(88, 46, 240, 0.05) 35px 21px,
+      rgba(88, 46, 240, 0.05) 40px 24px,
+  }
+  50% {
+    transform: translate(0px, 0px);
+    box-shadow:
+      rgba(46, 72, 240, 0.1) 5px 3px,
+      rgba(46, 65, 240, 0.08) 10px 6px,
+      rgba(46, 49, 240, 0.06) 15px 9px,
+      rgba(82, 46, 240, 0.04) 20px 12px,
+      rgba(88, 46, 240, 0.02) 25px 15px,
+      rgba(88, 46, 240, 0.015) 30px 18px,
+      rgba(88, 46, 240, 0.01) 35px 21px,
+      rgba(88, 46, 240, 0.005) 40px 24px,
+      rgba(88, 46, 240, 0.005) 45px 27px,
+      rgba(120, 46, 240, 0.005) 50px 30px,
+      rgba(149, 46, 240, 0.005) 55px 33px;
+  }
+}
+@keyframes flowBlueShadow {
+  0%, 100% {
+    transform: translate(15px, -15px);
+
+    box-shadow:
+    rgba(46, 72, 240, 0.4) 5px -3px,
+    rgba(46, 65, 240, 0.3) 10px -6px,
+    rgba(46, 49, 240, 0.2) 15px -9px,
+    rgba(82, 46, 240, 0.1) 20px -12px,
+    rgba(88, 46, 240, 0.05) 25px -15px,
+    rgba(88, 46, 240, 0.05)30px -18px,
+    rgba(88, 46, 240, 0.05) 35px -21px,
+    rgba(88, 46, 240, 0.05) 40px -24px,
+  }
+  50% {
+    transform: translate(0px, -0px);
+    box-shadow:
+    rgba(46, 72, 240, 0.1) 5px -3px,
+  }
+}

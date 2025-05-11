@@ -1,6 +1,7 @@
 "use client"
 import { useRef, useEffect, ReactNode } from "react";
 import { motion, useInView, useAnimation } from "motion/react";
+
 interface RevalProps {
     children: ReactNode;
     width?: string | number;
@@ -16,7 +17,7 @@ interface RevalProps {
             mainControls.start("visible")
         }
         
-    }, [isInView ])
+    }, [isInView, mainControls ])
     return(
         <div ref={ref} style={{position: "relative", width, overflow: "hidden"}}>
             <motion.div
@@ -67,7 +68,7 @@ export const RevalAboutImg = ({ children, width }: RevalProps)  =>{
             mainControls.start("visible")
         }
         
-    }, [isInView ])
+    }, [isInView, mainControls ])
     return(
         <div ref={ref} style={{position: "relative", width, overflow: "hidden"}}>
             <motion.div
@@ -168,7 +169,7 @@ export const RevalTopBottom = ({ children, width }: RevalProps) =>{
             mainControls.start("visible")
         }
         
-    }, [isInView ])
+    }, [isInView , mainControls])
     return(
         <div ref={ref} style={{position: "relative", width, overflow: "hidden"}}>
             <motion.div
@@ -207,3 +208,27 @@ export const RevalTopBottom = ({ children, width }: RevalProps) =>{
         </div>
     )
 }
+
+
+
+export default function BirdBackground() {
+    const birdCount = 40;
+  
+    return (
+      <>
+        {[...Array(birdCount)].map((_, i) => (
+          <div
+            key={i}
+            className="flying-bird flex items-center justify-center"
+            style={{
+                top: `${Math.random() * 2700}px`,
+                left: `${Math.random() * 10}vw`,
+                animationDelay: `${Math.random() * 5}s`,
+                animationDuration: `${15 + Math.random() * 10}s`,
+                transform: `rotate(${Math.random() * 360}deg)`,
+              }}
+          />
+        ))}
+      </>
+    );
+  }

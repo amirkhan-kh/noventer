@@ -6,14 +6,14 @@
     "navLink4": "Aloqa",
     "navLinkBtn": "Loyiha bormi?"
   },
-
-
   "Footer": {
     "title": "Biz bilan aloqa",
     "titleP": "Loyihangizni qanday realizatsiya qilish haqida batafsil suhbatlashamiz",
     "formFooterT": "Bepul konsultatsiya",
     "formTable": "Bizning jamoa haqida",
-    "formFooterD": "Loyihangiz bo’yicha boshlang’ich bepul konsultatsiya uchun ma’lumotingizni qoldiring."
+    "formFooterD": "Loyihangiz bo’yicha boshlang’ich bepul konsultatsiya uchun ma’lumotingizni qoldiring.",
+    "FooterBTNR": "Jo'natish"
+
   },
   "SelectSwitcher": {
     "label": "Tilni o'zgartirish",
@@ -54,7 +54,7 @@
     "card1D": "Tourmad – O‘zbekistonning ichki turizimini rivojlantirish maqsadida ishlab chiqilgan bu web sayt o‘zida bir necha service larni o‘z ichiga jamlagan bo‘lib ulardan: Mehmonxona xizmari, Restoran xizmati, Gitlik xizmati, Mashinada sayohat qilish uchun haydovchilar xizmari va boshqa ko‘plab xizmarlarni o‘z ichiga oladi. Bundan tashqari saytdan o‘zingiz uchun qayerlarga boorish kerakligini va qayerlarda xizmat ko‘satish qancha ekanligini ko‘rishingiz va o‘zingiz uchun oldindan buyurtma qilishingiz mumkin.",
     "card2D": "Prorun.uz – bu saytda tez-tez bo‘lib o‘tadigan yugurish bo‘yicha musobaqalar bo‘lib o‘tadi va siz saytdan ro‘ yxatdan o‘tgan holda istalgan yoki har bir musobaqada qatnashishingiz mumkin.  Nima uchun sayt qurilgan? Musobaqalarda chet ellik ishtirokchilar bo‘lgani bois ularga va boshqa qatnashchilarga ro‘yxatdan o‘tishni oson qilish uchun yangi web ilova ishlab chiqildi.",
     "card3D": "Bu yerda esa yana ko’proq ma’lumotlar berilishi kerak. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
-    "projectsBtn": "Loyihani ko’rish" 
+    "projectsBtn": "Loyihani ko’rish"
   },
   "ServicesHome": {
     "title": "Xizmat turlari",
@@ -83,6 +83,115 @@
     "IntroT2": "har bir mijoz uchun",
     "IntroT3": "istalgan turdagi",
     "IntroT4": "deb yondoshamiz !"
+  },
+  "Servicecard": {
+    "cardTitle": "Landing sahifalar",
+    "cardLTitle1": "Qisqa va ta'sirli",
+    "cardLTitle2": "Tez yuklanuvchi",
+    "cardRTitle2": "Maqsadli",
+    "cardLP1": "Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.",
+    "cardLP2": "Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)",
+    "cardLP3": "Veb Dizayn: 10-15 soatlik mehnat.",
+    "cardLBtn": "Buyurtma berish",
+    "cardPL1": "Buyurtma berish",
+    "cardPL2": "Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.",
+    "cardPR": "Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi."
+  },
+  "Servicecard2": {
+    "2cardTitle": "Katalog sahifalari",
+    "2cardLTitle1": "Mahsulotlar tavsifi",
+    "2cardLTitle2": "Turli filtrlar",
+    "2cardRTitle2": "Navigatsiya",
+    "2cardLP1": "Har bir mahsulotning batafsil tavsifi, xususiyatlari, afzalliklari va rasmlari bilan berilgan.",
+    "2cardLP2": "Mijozlarning qidirishni osonlashtirish uchun turli xil filtrlar va saralash imkoniyatlari taqdim etiladi.",
+    "2cardLP3": "Katalog bo'ylab oson va intuitiv harakatlanish uchun qulay navigatsiya tizimi yaratilgan.",
+    "2cardLBtn": "Buyurtma berish",
+    "2cardPL1": "Buyurtma berish",
+    "2cardPL2": "Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)",
+    "2cardPR": "Veb Dizayn: 10-15 soatlik mehnat. Narxi: 00"
+  },
+  "Servicecard3": {
+    "3cardTitle": "eCommerce Sahifalari",
+    "3cardLTitle1": "Onlayn sotish",
+    "3cardLTitle2": "Xavfsiz to'lov",
+    "3cardRTitle2": "Yetkazib berish",
+    "3cardLP1": "Mijozlarga tovarlarni to'g'ridan-to'g'ri onlayn sotib olish imkoniyatini beradi.",
+    "3cardLP2": "Texnik vazifa tayyorlab berish: 3-4 kun)",
+    "3cardLP3": "Texnik vazifa tayyorlab berish: 3-4 kun",
+    "3cardLBtn": "Buyurtma berish",
+    "3cardPL1": "Buyurtma berish",
+    "3cardPL2": "Sayt sahifalar soni: har bir sahifa minimum 5 ta qismdan iborat bo’ladi.",
+    "3cardPR": "Veb Dizayn: 7-10 kun mehnat. Narxi: 200-300"
+  },
+  "Servicecard4": {
+    "4cardTitle": "Tez yuklanuvchi",
+    "4cardLTitle1": "Qisqa va ta'sirli",
+    "4cardLTitle2": "Maqsadli",
+    "4cardRTitle2": "Tez yuklanuvchi",
+    "4cardLP1": "TMijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.",
+    "4cardLP2": "Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.",
+    "4cardLP3": "Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.",
+    "4cardLBtn": "TBuyurtma berish",
+    "4cardPL1": "Provides key information that grabs the visitor’s attention and encourages the next step.",
+    "4cardPL2": "Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)",
+    "4cardPR": "Veb Dizayn: 10-15 soatlik mehnat."
+  },
+  "Servicecard5": {
+    "5cardTitle": "Tez yuklanuvchi",
+    "5cardLTitle1": "Qisqa va ta'sirli",
+    "5cardLTitle2": "Maqsadli",
+    "5cardRTitle2": "Tez yuklanuvchi",
+    "5cardLP1": "TMijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.",
+    "5cardLP2": "Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.",
+    "5cardLP3": "Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.",
+    "5cardLBtn": "Buyurtma berish",
+    "5cardPL1": "Provides key information that grabs the visitor’s attention and encourages the next step.",
+    "5cardPL2": "Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)",
+    "5cardPR": "Veb Dizayn: 10-15 soatlik mehnat."
+  },
+  "Servicecard6": {
+    "6cardTitle": "Tez yuklanuvchi",
+    "6cardLTitle1": "Qisqa va ta'sirli",
+    "6cardLTitle2": "Maqsadli",
+    "6cardRTitle2": "Tez yuklanuvchi",
+    "6cardLP1": "TMijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.",
+    "6cardLP2": "Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.",
+    "6cardLP3": "Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.",
+    "6cardLBtn": "Buyurtma berish",
+    "6cardPL1": "Provides key information that grabs the visitor’s attention and encourages the next step.",
+    "6cardPL2": "Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)",
+    "6cardPR": "Veb Dizayn: 10-15 soatlik mehnat."
+  },
+  "Servicecard7": {
+    "7cardTitle": "Tez yuklanuvchi",
+    "7cardLTitle1": "Qisqa va ta'sirli",
+    "7cardLTitle2": "Maqsadli",
+    "7cardRTitle2": "Tez yuklanuvchi",
+    "7cardLP1": "TMijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.",
+    "7cardLP2": "Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.",
+    "7cardLP3": "Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.",
+    "7cardLBtn": "Buyurtma berish",
+    "7cardPL1": "Provides key information that grabs the visitor’s attention and encourages the next step.",
+    "7cardPL2": "Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)",
+    "7cardPR": "Veb Dizayn: 10-15 soatlik mehnat."
+  },
+  "Servicecard8": {
+    "8cardTitle": "Tez yuklanuvchi",
+    "8cardLTitle1": "Qisqa va ta'sirli",
+    "8cardLTitle2": "Maqsadli",
+    "8cardRTitle2": "Tez yuklanuvchi",
+    "8cardLP1": "TMijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.",
+    "8cardLP2": "Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.",
+    "8cardLP3": "Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.",
+    "8cardLBtn": "Buyurtma berish",
+    "8cardPL1": "Provides key information that grabs the visitor’s attention and encourages the next step.",
+    "8cardPL2": "Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)",
+    "8cardPR": "Veb Dizayn: 10-15 soatlik mehnat."
+  },
+  "PortfolioIntro": {
+    "IntroT1": "Tajribamiz davomida",
+    "IntroT2": "turli xil hajmdagi",
+    "IntroT3": "IT loyihalarini  ",
+    "IntroT4": "ishga tushira oldik"
   }
-
 }

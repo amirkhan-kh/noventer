@@ -11,7 +11,8 @@
     "titleP": "Let’s discuss how to bring your project to life",
     "formFooterT": "Free Consultation",
     "formTable": "About Our Team",
-    "formFooterD": "Leave your contact info for an initial free consultation about your project."
+    "formFooterD": "Leave your contact info for an initial free consultation about your project.",
+    "FooterBTNR": "Sending"
   },
 
   "SelectSwitcher": {
@@ -82,5 +83,117 @@
     "IntroT2": "for every client",
     "IntroT3": "in any form",
     "IntroT4": "with a tailored approach!"
+  },
+
+  "Servicecard": {
+    "cardTitle": "Landing Pages",
+    "cardLTitle1": "Concise and impactful",
+    "cardLTitle2": "Fast loading",
+    "cardRTitle2": "Goal-oriented",
+    "cardLP1": "Provides key information that grabs the visitor’s attention and encourages the next step.",
+    "cardLP2": "Number of pages: 1 (each page will include at least 5 sections.)",
+    "cardLP3": "Web Design: 10–15 hours of work.",
+    "cardLBtn": "Order now",
+    "cardPL1": "Technical task preparation: 1 day",
+    "cardPL2": "Loads as fast as possible to respect users’ patience.",
+    "cardPR": "Designed with a clear purpose to guide the user toward a specific action."
+  },
+
+  "Servicecard2": {
+    "2cardTitle": "Catalog Pages",
+    "2cardLTitle1": "Product Descriptions",
+    "2cardLTitle2": "Various Filters",
+    "2cardRTitle2": "Navigation",
+    "2cardLP1": "Each product is provided with detailed description, features, advantages, and images.",
+    "2cardLP2": "Various filters and sorting options are provided to make customer search easier.",
+    "2cardLP3": "A user-friendly navigation system is created for easy and intuitive browsing.",
+    "2cardLBtn": "Order now",
+    "2cardPL1": "Technical task preparation: 1 day",
+    "2cardPL2": "Number of pages: 1 (each page includes a minimum of 5 sections.)",
+    "2cardPR": "Web Design: 10–15 hours of work. Price: $100"
+  },
+  "Servicecard3": {
+    "3cardTitle": "eCommerce Pages",
+    "3cardLTitle1": "Online Sales",
+    "3cardLTitle2": "Secure Payments",
+    "3cardRTitle2": "Delivery",
+    "3cardLP1": "Allows customers to buy products directly online.",
+    "3cardLP2": "Secure payment system ensures the protection of customer data.",
+    "3cardLP3": "Various delivery options can be integrated based on region and preferences.",
+    "3cardLBtn": "Order now",
+    "3cardPL1": "Technical task preparation: 3–4 days.",
+    "3cardPL2": "Number of pages: each page includes a minimum of 5 sections.",
+    "3cardPR": "Web Design: 7–10 days of work. Price: $200–300"
+  },
+  "Servicecard4": {
+    "4cardTitle": "Blog Pages",
+    "4cardLTitle1": "Articles",
+    "4cardLTitle2": "Categories",
+    "4cardRTitle2": "Search",
+    "4cardLP1": "Informative blog section that improves SEO and user engagement.",
+    "4cardLP2": "Articles can be divided into categories for easier navigation.",
+    "4cardLP3": "Includes search and filtering for articles.",
+    "4cardLBtn": "Order now",
+    "4cardPL1": "Technical task preparation: 1–2 days.",
+    "4cardPL2": "Number of pages: 1–2 (with at least 5 blocks).",
+    "4cardPR": "Web Design: 10–20 hours of work. Price: $100–150"
+  },
+  "Servicecard5": {
+    "5cardTitle": "Admin Panel",
+    "5cardLTitle1": "Management",
+    "5cardLTitle2": "User Roles",
+    "5cardRTitle2": "Security",
+    "5cardLP1": "Tools for editing, adding, deleting content and managing orders.",
+    "5cardLP2": "Role-based access for admins, editors, and clients.",
+    "5cardLP3": "Two-factor authentication and secure admin access.",
+    "5cardLBtn": "Order now",
+    "5cardPL1": "Technical task preparation: 3–5 days.",
+    "5cardPL2": "Pages: Dashboard + Content + User control = 3–4 pages.",
+    "5cardPR": "Admin UI/UX Design: 3–5 days. Price: $200–300"
+  },
+  "Servicecard6": {
+    "6cardTitle": "User Dashboard",
+    "6cardLTitle1": "Profile",
+    "6cardLTitle2": "Settings",
+    "6cardRTitle2": "Orders",
+    "6cardLP1": "Users can view and edit their personal information and photos.",
+    "6cardLP2": "Notification and privacy settings are available.",
+    "6cardLP3": "Users can see their order history and statuses.",
+    "6cardLBtn": "Order now",
+    "6cardPL1": "Technical task preparation: 2–3 days.",
+    "6cardPL2": "Pages: Profile + Settings + Orders = 3 pages.",
+    "6cardPR": "UI/UX Design: 2–4 days. Price: $150–250"
+  },
+  "Servicecard7": {
+    "7cardTitle": "Authentication Pages",
+    "7cardLTitle1": "Login",
+    "7cardLTitle2": "Registration",
+    "7cardRTitle2": "Password Recovery",
+    "7cardLP1": "Secure login system using email or phone number.",
+    "7cardLP2": "Quick registration with validations.",
+    "7cardLP3": "Option to reset forgotten password via email or SMS.",
+    "7cardLBtn": "Order now",
+    "7cardPL1": "Technical task preparation: 1–2 days.",
+    "7cardPL2": "Pages: Login + Register + Reset Password = 3 pages.",
+    "7cardPR": "Web Design: 8–12 hours of work. Price: $80–100"
+  },
+  "Servicecard8": {
+    "8cardTitle": "Landing Page",
+    "8cardLTitle1": "Sales Focused",
+    "8cardLTitle2": "SEO Optimized",
+    "8cardRTitle2": "Call to Action",
+    "8cardLP1": "Designed to highlight the product/service with visuals and text.",
+    "8cardLP2": "Optimized for Google and other search engines.",
+    "8cardLP3": "Includes clear CTA buttons to encourage user interaction.",
+    "8cardLBtn": "Order now",
+    "8cardPL1": "Technical task preparation: 1–2 days.",
+    "8cardPL2": "Number of blocks: 5–8 in one page.",
+    "8cardPR": "Design: 1–2 days. Price: $100"
+  },
+  "PortfolioIntro": {
+    "IntroT1": "Throughout our experience,",
+    "IntroT2": "we have launched IT projects",
+    "IntroT3": "of various scales",
+    "IntroT4": "successfully"
   }
 }
