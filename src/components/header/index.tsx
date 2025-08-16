@@ -72,7 +72,7 @@ const Header = () => {
         {/* Right controls */}
         <div className="flex items-center gap-1 lg:gap-4">
           <LocalSwitcherComponent />
-          <Button className="hidden sm:block">{t("navLinkBtn")}</Button>
+          <Button className="hidden sm:block"><a href="https://crm-exam-2-project.vercel.app/">{t("navLinkBtn")}</a></Button>
           <button onClick={toggleMenu} className="ms-2.5 lg:hidden">
             <MdMenu color="white" size={28} />
           </button>
